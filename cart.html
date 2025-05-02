@@ -1,0 +1,74 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Pharmacy - Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Digital Pharmacy</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="medicines.html">Medicines</a>
+    <a href="cart.html">Cart</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Your Cart</h2>
+
+  <div class="cart-container">
+
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Medicine</th>
+          <th>Price (৳)</th>
+          <th>Quantity</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Paracetamol 500mg</td>
+          <td>20</td>
+          <td>1</td>
+          <td>
+            <a href="medicines.html" class="button small">Add More</a>
+            <a href="#" class="button small">Remove</a>
+          </td>
+        </tr>
+        <tr>
+          <td>C-Vita 500mg</td>
+          <td>15</td>
+          <td>2</td>
+          <td>
+            <a href="medicines.html" class="button small">Add More</a>
+            <a href="#" class="button small">Remove</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="checkout-section">
+      <h3>Total: ৳50</h3>
+      <a href="checkout.html" class="button checkout-button">Proceed to Checkout</a>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Digital Pharmacy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

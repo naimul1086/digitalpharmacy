@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - Digital Pharmacy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .dashboard-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-info {
+      margin-bottom: 30px;
+    }
+
+    .profile-image {
+  width: 132px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #28a745;
+  margin-bottom: 10px;
+}
+
+
+    .profile-text p {
+      margin: 5px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #28a745;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Digital Pharmacy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="medicines.html">Medicines</a>
+      <a href="cart.html">Cart</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="logout.html" class="logout-link" id="logout-link">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard-container">
+      <div class="profile-info">
+        <img src="profile.jpg" alt="User Photo" class="profile-image">
+        <div class="profile-text">
+          <p><strong>Name:</strong> Naimul Islam</p>
+          <p><strong>Email:</strong>naimulislam1086nub@gmail.com</p>
+          <p><strong>Phone:</strong> 01721260023</p>
+        </div>
+      </div>
+
+      <h3>Your Order History</h3>
+      <table>
+        <tr>
+          <th>Medicine</th>
+          <th>Quantity</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Paracetamol</td>
+          <td>2</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>Seclo</td>
+          <td>1</td>
+          <td>Shipped</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Digital Pharmacy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
